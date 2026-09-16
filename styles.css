@@ -299,3 +299,18 @@ p{margin:0 0 1rem}
   .reveal{transition:none;opacity:1;transform:none}
   html{scroll-behavior:auto}
 }
+
+/* Owner-supplied menu and photographs */
+.menu-intro{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-bottom:32px}
+.pie-menu{display:grid;grid-template-columns:1fr 1fr;column-gap:56px}
+.pie-menu .menu-item{justify-content:space-between;flex-wrap:nowrap;gap:20px}
+.pie-menu .menu-item .name{white-space:normal}
+.menu-fresh{margin-top:56px;padding-top:32px;border-top:1px solid var(--line);max-width:650px}
+.menu-fresh p{margin:16px 0 24px}
+.bakery-gallery{columns:3;column-gap:20px;margin-top:32px}
+.bakery-gallery a{display:block;break-inside:avoid;margin-bottom:20px;border-radius:12px;overflow:hidden}
+.bakery-gallery img{display:block;width:100%;height:auto;transition:transform .25s}
+.bakery-gallery a:hover img{transform:scale(1.025)}
+@media(max-width:700px){.pie-menu{grid-template-columns:1fr}.menu-intro{align-items:flex-start;flex-direction:column}.bakery-gallery{columns:2;column-gap:12px}.bakery-gallery a{margin-bottom:12px}}
+
+.menu-photo-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:center;margin-top:48px}.menu-photo-strip img{width:100%;height:auto;border-radius:12px}@media(max-width:600px){.menu-photo-strip{gap:10px}}
