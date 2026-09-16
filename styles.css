@@ -314,3 +314,53 @@ p{margin:0 0 1rem}
 @media(max-width:700px){.pie-menu{grid-template-columns:1fr}.menu-intro{align-items:flex-start;flex-direction:column}.bakery-gallery{columns:2;column-gap:12px}.bakery-gallery a{margin-bottom:12px}}
 
 .menu-photo-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:center;margin-top:48px}.menu-photo-strip img{width:100%;height:auto;border-radius:12px}@media(max-width:600px){.menu-photo-strip{gap:10px}}
+
+/* Taste pass: sharper editorial bakery direction */
+:root{
+  --radius:14px;
+  --radius-sm:10px;
+  --shadow:0 20px 45px -30px rgba(16,26,45,.45);
+  --shadow-lg:0 30px 72px -34px rgba(16,26,45,.58);
+}
+.nav{background:rgba(251,247,239,.94);border-bottom-color:rgba(24,40,64,.12)}
+.nav-inner{height:78px}
+.brand{font-size:1.38rem}
+.brand-logo{width:46px;height:46px}
+.hero{min-height:88vh}
+.hero-inner{max-width:660px;padding-top:136px;padding-bottom:100px}
+.hero h1{font-size:clamp(2.8rem,6.6vw,5.2rem);letter-spacing:-.055em;line-height:.98;max-width:11ch}
+.hero p.sub{max-width:47ch;font-size:1.12rem}
+.hero::before{content:"";position:absolute;z-index:2;left:0;top:26%;width:7px;height:48%;background:var(--amber)}
+.section{padding:112px 0}
+.section h2{letter-spacing:-.045em}
+.svc-head{align-items:flex-start;margin-bottom:52px}
+.svc-head h2{max-width:10ch}
+.svc-grid{gap:18px}
+.svc-card{box-shadow:none;border-color:rgba(24,40,64,.12);border-radius:var(--radius)}
+.svc-card:hover{box-shadow:var(--shadow);transform:translateY(-4px)}
+.svc-body{padding:24px 24px 28px}
+.about-grid{gap:84px}
+.about-media img{border-radius:var(--radius)}
+.about-media .corner{border-radius:var(--radius-sm);background:var(--espresso);color:#fff}
+.crew-card,.rev-card{box-shadow:none;border-color:rgba(24,40,64,.12)}
+.contact-card{border-radius:var(--radius);background:rgba(255,255,255,.08)}
+.page-hero{text-align:left;padding:150px 0 82px;position:relative;overflow:hidden}
+.page-hero::after{content:"";position:absolute;right:-5%;bottom:-42%;width:46vw;height:90%;border:1px solid rgba(244,210,78,.32);border-radius:50%}
+.page-hero p{margin-left:0;max-width:52ch}
+.bakery-gallery{columns:4;column-gap:16px;margin-top:42px}
+.bakery-gallery a{border-radius:var(--radius);margin-bottom:16px}
+.bakery-gallery a:nth-child(4n+1){transform:translateY(20px)}
+.bakery-gallery a:nth-child(4n+3){transform:translateY(-12px)}
+.bakery-gallery img{filter:saturate(.92) contrast(1.04)}
+.menu-photo-strip img{border-radius:var(--radius)}
+@media(max-width:900px){.bakery-gallery{columns:3}.hero h1{max-width:12ch}}
+@media(max-width:700px){
+  .nav-inner{height:70px}
+  .hero{min-height:84vh}
+  .hero-inner{padding-top:112px;padding-bottom:76px}
+  .hero::before{width:5px;height:36%;top:30%}
+  .section{padding:78px 0}
+  .page-hero{padding:112px 0 64px}
+  .bakery-gallery{columns:2;column-gap:12px}
+  .bakery-gallery a:nth-child(4n+1),.bakery-gallery a:nth-child(4n+3){transform:none}
+}
