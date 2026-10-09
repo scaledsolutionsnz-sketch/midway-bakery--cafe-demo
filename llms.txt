@@ -1,0 +1,25 @@
+# Midway Bakery & Cafe
+
+> Pie shop at 76 Grove Road, Mayfield, Blenheim 7201, New Zealand, on State Highway 1 at the northern end of Blenheim. 24 pie flavours baked fresh every morning, and every pie is $7.80. Rated 4.8 out of 5 from 82 Google reviews.
+
+## Key facts
+- Address: 76 Grove Road, Mayfield, Blenheim 7201, Marlborough, New Zealand
+- Phone: 03 577 5993
+- Hours: Monday to Saturday 6:30am to 5:00pm. Closed Sunday.
+- Price: every pie is $7.80 NZD, any flavour
+- Takeaway and seating out front. No delivery.
+- Wheelchair accessible entrance. Free parking nearby.
+- Also sells fresh sandwiches, filled rolls, donuts, cheesecake, tiramisu slices and barista coffee.
+- Google Maps: https://www.google.com/maps?cid=18403112760416275690
+- Facebook: https://www.facebook.com/p/Midway-bakery-and-cafe-61577578721236/
+
+## Pie menu ($7.80 each)
+- Steak pies: Steak, Steak & Cheese, Pepper Steak, Pepper Steak & Cheese, Steak, Bacon & Cheese, Steak & Mushroom, Steak, Mushroom & Cheese, Steak, Mushroom & Bacon, Steak, Jalapeño & Cheese
+- Mince & potato top: Mince, Mince & Cheese, Potato Top
+- Chicken pies: Classic Creamy Chicken, Chicken, Cranberry & Brie, Butter Chicken
+- Gourmet pies: Roasted Duck & Mushroom, Roasted Duck & Bacon, Salmon, Bacon & Cheese, Fisherman’s Pie, Slow Cooked Lamb Curry, Caramelised Pork Belly & Apple
+- Breakfast pies: Benedict Brunch Pie, Bacon & Egg, Bacon, Egg & Cheese
+
+## Pages
+- [Home](https://midway-bakery-cafe-demo.vercel.app/): pies, customer favourites, Google reviews, FAQ, hours and location
+- [Menu](https://midway-bakery-cafe-demo.vercel.app/menu.html): the full pie menu with prices, plus sandwiches, donuts and sweets
